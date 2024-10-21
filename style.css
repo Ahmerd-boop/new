@@ -43,17 +43,21 @@ body {
 .pagination a {
     color: white;
     text-decoration: none;
-    padding: 4px 8px;
+    padding: 6px 12px;
     border-right: 1px solid yellow;
     transition-duration: 2s;
+    float: left;
     font: bolder;
     font-size: 10px;
-    text-align: center;
 }
 
 .pagination a:hover {
     background: yellow;
     color: black;
+}
+
+.pagination li:last-child>a {
+    border: none;
 }
 
 .active {
