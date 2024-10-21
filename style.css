@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 0 auto;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.077);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -20px;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    height: 200px;
+    padding: 20px;
+}
+
+.pagination-container {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid yellow;
+    border-radius: 1px;
+}
+
+.pagination li {
+    display: inline;
+}
+
+.pagination a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 14px;
+    float: left;
+    border-right: 1px solid yellow;
+    transition-duration: 2s;
+    font: bolder;
+    font-size: 13px;
+}
+
+.pagination a:hover {
+    background: yellow;
+    color: black;
+}
+
+.active {
+    background: yellow;
+}
+
+section {
+    color: white;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 0, 0.138);
+    border-radius: 1px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+section:hover {
+    border: 1px solid rgba(255, 255, 255, 0.451);
+    border-radius: 1px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    background: white;
+    font-family: Arial;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    text-align: center;
+}
+
+section img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    filter: brightness(1.2);
+    transition: all 0.3s ease;
+}
+
+.welcome {
+    color: yellow;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+marquee {
+    color: white;
+}
+
+.btn {
+    background: yellow;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    display: block;
+    color: black;
+}
+
+.btn:hover {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.skills {
+    text-align: center;
+    font-size: 15px;
+}
+
+.link {
+    text-align: center;
+}
+
+.link>a {
+    color: yellow;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p>a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.link>a:hover,
+p>a:hover {
+    color: white;
+}
+
+section video {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+section video:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    filter: brightness(1.2);
+    transition: all 0.3s ease;
+}
+
+body:hover {
+    background: rgba(0, 0, 0, 0.927);
+}
+
+.btn>a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background: white;
+    color: yellow;
+}
