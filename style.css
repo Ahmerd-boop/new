@@ -33,6 +33,7 @@ body {
     padding: 0;
     border: 1px solid yellow;
     border-radius: 1px;
+    text-align: center;
 }
 
 .pagination li {
@@ -42,12 +43,12 @@ body {
 .pagination a {
     color: white;
     text-decoration: none;
-    padding: 7px 14px;
-    float: left;
+    padding: 4px 8px;
     border-right: 1px solid yellow;
     transition-duration: 2s;
     font: bolder;
-    font-size: 13px;
+    font-size: 10px;
+    text-align: center;
 }
 
 .pagination a:hover {
