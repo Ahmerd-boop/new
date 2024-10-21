@@ -48,7 +48,7 @@ body {
     transition-duration: 2s;
     float: left;
     font: bolder;
-    font-size: 14px;
+    font-size: 8px;
 }
 
 .pagination a:hover {
@@ -154,7 +154,7 @@ p {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 p>a {
